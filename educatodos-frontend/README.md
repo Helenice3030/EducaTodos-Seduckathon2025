@@ -6,6 +6,10 @@ EducaTodos é um projeto feito para o Seduckathon PI 2025, que tem a proposta de
 - React 19
 - TypeScript
 - Tailwind CSS
+- VLibras (Recurso de libras)
+- SpeechRecognition (WebAPI) Para reconhecimento de voz
+- SpeechSynthesis (WebAPI) Para leitura de textos
+- WCAG - aria-label, aria-description, melhorias de contraste para deficientes visuais.
 
 ## Instalação
 
