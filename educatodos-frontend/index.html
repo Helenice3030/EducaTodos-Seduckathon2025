@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>EducaTodos</title>
+  </head>
+  <body class="dark:bg-gray-900">
+    <noscript>This site needs JavaScript to fully function.</noscript>
+    <noscript>__PAGE_NO_SCRIPT__</noscript>
+    <div id="root"></div>
+    <div id="vlibras-container">
+      <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+      <script type="module" src="/src/main.tsx"></script>
+    </div>
+  </body>
+</html>
